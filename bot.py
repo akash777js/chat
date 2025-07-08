@@ -4,7 +4,7 @@ import json
 from math import sqrt
 from telegram.ext import Updater, CommandHandler
 
-TOKEN = os.getenv("8019353235:AAG0vFYqc9pfqOHZxa-qhVlNv33ZdycAI_g")
+TOKEN = os.getenv("BOT_TOKEN")
 if not TOKEN:
     raise ValueError("BOT_TOKEN environment variable not set")
 
